@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.booked{
+  background-color: green;
+}
+
+.notbooked{
+  background-color: red;
+}
+
+table {
+  margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border: 2px solid #C0C0C0;
+}
+.table2{
+  margin-top: 30px;
+  margin-left: 46%;
+}
+
+.spaceleft{
+  margin-left: 35px;
+}
+.row-layout{
+  display: flex;
+  flex-direction: row;
+}
+
+.column-layout{
+  display: flex;
+  flex-direction: column
+}
